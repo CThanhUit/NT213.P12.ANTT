@@ -1,0 +1,16 @@
+Array
+(
+    [csp-report] => Array
+        (
+            [document-uri] => http://localhost:3000/scenario3.php?input=%3Cscript+src%3D%22data%3Atext%2Fjavascript%2Calert%28%27XSS%21%27%29%22%3E%3C%2Fscript%3E
+            [referrer] => http://localhost:3000/scenario3.php
+            [violated-directive] => script-src-elem
+            [effective-directive] => script-src-elem
+            [original-policy] => script-src 'self': ; child-src 'none'; report-uri /csp-report-endpoint.php
+            [disposition] => enforce
+            [blocked-uri] => data
+            [status-code] => 200
+            [script-sample] => 
+        )
+
+)
